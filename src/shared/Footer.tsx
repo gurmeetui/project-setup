@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div style={{marginTop: '20px'}}>Footer</div>
+    <div style={{ marginTop: '20px' }}>Footer</div>
   )
 }
 

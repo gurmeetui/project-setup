@@ -6,7 +6,7 @@ const HomePage = () => {
       background: 'var(--primary-color)',
       height: '100vh'
     }}>
-      <Typography variant='h1'>
+      <Typography variant='h1' sx={{fontSize: 'var(--font-size-base)'}}>
         Home Page Component Based
       </Typography>
       <Typography>

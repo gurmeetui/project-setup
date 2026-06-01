@@ -1,13 +1,12 @@
 :root {
   --primary: #1677ff;
   --secondary: #13c2c2;
-
   --bg-color: #ffffff;
   --text-color: #000000;
-
-  --border-color: #d9d9d9;
+  --border-color: #d9d9d9;  
 }
 
+/* //dark theme */
 [data-theme="dark"] {
   --primary: #4096ff;
   --secondary: #36cfc9;
@@ -16,6 +15,7 @@
   --border-color: #434343;
 }
 
+/* //orange theme */
 [data-theme="orange"] {
   --primary: #4096ff;
   --secondary: #36cfc9;
@@ -24,6 +24,7 @@
   --border-color: #434343;
 }
 
+/* //green theme */
 [data-theme="green"] {
   --primary: #4096ff;
   --secondary: #36cfc9;
@@ -32,6 +33,7 @@
   --border-color: #434343;
 }
 
+/* //purple theme */
 [data-theme="purple"] {
   --primary: #4096ff;
   --secondary: #36cfc9;
@@ -40,6 +42,7 @@
   --border-color: #434343;
 }
 
+/* //red theme */
 [data-theme="red"] {
   --primary: #4096ff;
   --secondary: #36cfc9;
@@ -48,10 +51,33 @@
   --border-color: #434343;
 }
 
+/* //blue theme */
 [data-theme="blue"] {
   --primary: #4096ff;
   --secondary: #36cfc9;
   --bg-color: blue;
   --text-color: #ffffff;
   --border-color: #434343;
+}
+
+/* //grey theme */
+[data-theme="grey"] {
+  --primary: #4096ff;
+  --secondary: #36cfc9;
+  --bg-color: grey;
+  --text-color: red;
+  --border-color: #434343;
+}
+
+/* //font size contol */
+[data-font-size="xs"] {
+  --font-size-base: 12px;
+}
+
+[data-font-size="sm"] {
+  --font-size-base: 18px;
+}
+
+[data-font-size="md"] {
+  --font-size-base: 55px;
 }

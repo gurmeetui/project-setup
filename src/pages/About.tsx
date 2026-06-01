@@ -4,7 +4,7 @@ import React from 'react'
 const About = () => {
   return (
     <Box>
-      <Typography variant='h1'>
+      <Typography variant='h1' sx={{fontSize: 'var(--font-size-base)'}}>
         About Page
       </Typography>
       <Typography>

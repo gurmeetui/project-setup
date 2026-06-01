@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <>
             <Box className='conactus-class'>
-                <Typography variant='h1'>
+                <Typography variant='h1' sx={{fontSize: 'var(--font-size-base)'}}>
                     Contact Us
                 </Typography>
                 <Typography>

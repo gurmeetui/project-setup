@@ -11,11 +11,24 @@ export const ThemeProvider = ({
     return localStorage.getItem("theme") || "light";
   });
 
+  const [fontSize, setFontSize] = useState(() => {
+    return localStorage.getItem("fontSize") || "medium";
+  });
+
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
 
     localStorage.setItem("theme", theme);
   }, [theme]);
+
+  useEffect(() => {
+    document.documentElement.setAttribute(
+      "data-font-size",
+      fontSize
+    );
+
+    localStorage.setItem("fontSize", fontSize);
+  }, [fontSize]);
 
   const toggleTheme = () => {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"));
@@ -31,6 +44,9 @@ export const ThemeProvider = ({
         theme,
         toggleTheme,
         changeTheme,
+
+        fontSize,
+        setFontSize,
       }}
     >
       {children}
