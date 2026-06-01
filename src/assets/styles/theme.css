@@ -1,0 +1,57 @@
+:root {
+  --primary: #1677ff;
+  --secondary: #13c2c2;
+
+  --bg-color: #ffffff;
+  --text-color: #000000;
+
+  --border-color: #d9d9d9;
+}
+
+[data-theme="dark"] {
+  --primary: #4096ff;
+  --secondary: #36cfc9;
+  --bg-color: #141414;
+  --text-color: #ffffff;
+  --border-color: #434343;
+}
+
+[data-theme="orange"] {
+  --primary: #4096ff;
+  --secondary: #36cfc9;
+  --bg-color: orange;
+  --text-color: #000;
+  --border-color: #434343;
+}
+
+[data-theme="green"] {
+  --primary: #4096ff;
+  --secondary: #36cfc9;
+  --bg-color: green;
+  --text-color: #ffffff;
+  --border-color: #434343;
+}
+
+[data-theme="purple"] {
+  --primary: #4096ff;
+  --secondary: #36cfc9;
+  --bg-color: purple;
+  --text-color: #ffffff;
+  --border-color: #434343;
+}
+
+[data-theme="red"] {
+  --primary: #4096ff;
+  --secondary: #36cfc9;
+  --bg-color: red;
+  --text-color: #ffffff;
+  --border-color: #434343;
+}
+
+[data-theme="blue"] {
+  --primary: #4096ff;
+  --secondary: #36cfc9;
+  --bg-color: blue;
+  --text-color: #ffffff;
+  --border-color: #434343;
+}

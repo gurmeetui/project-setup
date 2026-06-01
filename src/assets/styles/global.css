@@ -1,0 +1,14 @@
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+.conactus-class {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.headertop-bar {
+  background-color: var(--bg-color);
+}
