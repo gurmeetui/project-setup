@@ -7,7 +7,7 @@ const HomePage = () => {
       height: '100vh'
     }}>
       <Typography variant='h1' sx={{fontSize: 'var(--font-size-base)'}}>
-        Home Page Component Based
+        Home Pagess Component Based
       </Typography>
       <Typography>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quidem eaque ab minima nisi pariatur voluptatem, a architecto adipisci veniam eum ea praesentium error sequi mollitia, voluptatum fuga ut reiciendis ducimus, iure earum inventore dolorem. Corrupti deserunt dolorem voluptas inventore.
